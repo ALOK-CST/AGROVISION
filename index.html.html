@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agri-Commodity Price Prediction</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script> <!-- GSAP for animations -->
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Agri-Commodity Price Prediction</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#predictions">Predictions</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <h2>Welcome to the Future of Agri-Price Prediction</h2>
+        <p>Using AI and Machine Learning, we are developing models to predict the prices of key agri-horticultural
+            commodities like onions and potatoes. Explore the future of agriculture pricing.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section fade-in">
+        <h2>About the Project</h2>
+        <p>The development of AI-ML-based models for predicting prices of agri-horticultural commodities, such as pulses
+            and vegetables (including onion and potato), represents a significant technological advancement in
+            agriculture.</p>
+    </section>
+
+    <!-- Predictions Section -->
+    <section id="predictions" class="section slide-in">
+        <h2>Price Predictions</h2>
+        <canvas id="priceChart"></canvas>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section fade-in">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Agri-Commodity Price Prediction. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript for Chart and Animations -->
+    <script src="script.js"></script>
+</body>
+
+</html>
